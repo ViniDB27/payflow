@@ -15,6 +15,7 @@ class AppWidget extends StatelessWidget {
       title: 'PayFlow',
       theme: ThemeData(
         primaryColor: AppColors.primary,
+        primarySwatch: Colors.orange,
       ),
       home: const LoginPage(),
       initialRoute: '/splash',
